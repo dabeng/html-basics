@@ -16,6 +16,37 @@
 ```
 全角的空格。此空格也有个相当稳健的特性，就是其占据的宽度正好是1个中文宽度，而且基本上不受字体影响。
 ## Semantic
+### Basic HTML structure of classic website layout
+```html
+<div class="container">
+         
+    <header>
+        <nav>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </nav>
+        <button></button>
+    </header>
+ 
+    <div class="wrapper">
+        <aside class="sidebar">
+            <h3></h3>
+        </aside>
+        <section class="main">
+            <h2></h2>
+            <p></p>
+        </section>
+    </div><!-- /wrapper -->
+ 
+    <footer>
+        <h3></h3>
+        <p></p>
+    </footer>
+</div><! -- /container -->
+```
 ### &lt;section&gt; vs &lt;div&gt;
 `<section> tag has a semantic meaning unlike <div>. semantic tags describe their meaning both to the developer and the browser. Basically, the <section> tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document.`
   
